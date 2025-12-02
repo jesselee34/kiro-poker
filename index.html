@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poker Slots</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  
+  <!-- Bet Selection Modal -->
+  <div id="betModal" class="modal">
+    <div class="modal-content">
+      <h2>Select Bet Amount</h2>
+      <div class="bet-buttons">
+        <button class="bet-btn" data-bet="1">$1</button>
+        <button class="bet-btn" data-bet="2">$2</button>
+        <button class="bet-btn" data-bet="5">$5</button>
+        <button class="bet-btn" data-bet="10">$10</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
