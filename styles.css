@@ -80,3 +80,23 @@ body {
 .bet-btn:active {
   transform: scale(0.95);
 }
+
+.credits {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #666;
+  font-size: 12px;
+  z-index: 100;
+}
+
+.credits a {
+  color: #790ECB;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.credits a:hover {
+  color: #9a3ee0;
+  text-decoration: underline;
+}
